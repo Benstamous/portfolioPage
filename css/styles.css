@@ -1,0 +1,20 @@
+.headerBackground {
+    align-self: center;
+    align-items: center;
+    background-image: url('../img/tileBackgroundGIF.gif');
+    background-color: black;
+}
+
+.footerBackground {
+    padding: 1;
+    margin: 1;
+    align-self: center;
+    align-items: center;
+    background-image: url('../img/tileBackgroundGIF.gif');
+    background-color: black;
+}
+
+.footerRow {
+    align-self: center;
+    align-items: center;
+}
