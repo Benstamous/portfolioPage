@@ -1,20 +1,83 @@
 .headerBackground {
     align-self: center;
     align-items: center;
-    background-image: url('../img/tileBackgroundGIF.gif');
+    background-image: url('https://i.gifer.com/J4o.gif');
     background-color: black;
+    position: fixed;
+    top: 0;
+}
+
+.headerButton {
+    font-size: 40px;
 }
 
 .footerBackground {
-    padding: 1;
-    margin: 1;
+    padding-top: 0%;
+    margin-top: 0%;
     align-self: center;
     align-items: center;
-    background-image: url('../img/tileBackgroundGIF.gif');
+    background-image: url('https://i.gifer.com/J4o.gif');
     background-color: black;
+    position: fixed;
+    bottom: 0;
 }
 
 .footerRow {
+    margin: 0%;
+    padding: 0%;
     align-self: center;
     align-items: center;
+}
+
+.float {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+#leaderShow {
+    cursor: pointer;
+}
+
+#leaderHide {
+    display: none;
+}
+
+#commShow {
+    cursor: pointer;
+}
+
+#commHide {
+    display: none;
+}
+
+#teamShow {
+    cursor: pointer;
+}
+
+#teamHide {
+    display: none;
+}
+
+#ethicShow {
+    cursor: pointer;
+}
+
+#ethicHide {
+    display: none;
+}
+
+#adaptShow {
+    cursor: pointer;
+}
+
+#adaptHide {
+    display: none;
+}
+
+.row {
+    margin: 0%;
+    padding: 0%;
 }
